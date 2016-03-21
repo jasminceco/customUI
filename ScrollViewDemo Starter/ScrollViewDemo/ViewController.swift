@@ -23,6 +23,7 @@ class ViewController: UIViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("printing 2")
         imageView = UIImageView(image: self.image)
         scrolView = UIScrollView(frame: view.bounds)
         scrolView.contentSize = imageView.bounds.size
