@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("testing")
         // Do any additional setup after loading the view, typically from a nib.
         
     alertController = UIAlertController(title: "Send me via?", message: "You can send me via Email or IMessage!", preferredStyle: .ActionSheet)
